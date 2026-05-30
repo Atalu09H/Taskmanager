@@ -45,16 +45,16 @@ public class Task {
     public void setDescreption(String descreption) {
         this.descreption= descreption;
     }
-    public boolean  getCompleted() {
+    public boolean  isCompleted() {
         return completed;
     }
-    public void setCompleted(boolean completed) {
+    public void setCompleted() {
         this.completed= completed;
     }
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
-    public void setCreatedAt(LocalDateTime CreatedAt) {
+    public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt= createdAt;
     }
 }
